@@ -24,19 +24,19 @@ export class ProyectsComponent implements OnInit {
         "_id": 2,
         "name": "Evolution Systems",
         "language": "HTML-CSS-TypeScrit-Angular",
-        "img": "../../../assets/img/logo.jpeg"
+        "img": "./assets/img/logo.jpeg"
        },
        {
         "_id": 3,
         "name": "Links favoritos",
         "language": "Nodejs- Express",
-        "img": "../../../assets/img/links.png"
+        "img": "./assets/img/links.png"
        },
        {
         "_id": 3,
         "name": "Portafolio",
         "language": "Angular",
-        "img": "../../../assets/img/img-potafolio.png"
+        "img": "./assets/img/img-potafolio.png"
        }
     ]
 
