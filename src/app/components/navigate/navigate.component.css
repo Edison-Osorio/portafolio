@@ -1,0 +1,13 @@
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+ 
+  .navegacion{
+    /* background: green; */
+  }
+
+  .nav-link{
+    border-bottom: 2px solid black;
+  }

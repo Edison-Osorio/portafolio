@@ -1,0 +1,18 @@
+
+<div class="container">
+    <h3 id="proyects" class="text-center mb-5">Mis proyectos</h3>
+    <div class="row d-flex justify-content-center text-dark ">
+        <div *ngFor="let data of data" class="col-md-3 col-xl-4 mb-4">
+            <div class="card-header text-center">
+                <h4>
+                    {{data.name}}
+                </h4>
+                    <p >{{data.language}}</p>
+            </div>
+            <div class="card-body col-md-4 text-center ">
+                <img class="ms-4" src="{{data.img}}" alt="logoProyect">           
+              
+            </div>
+        </div>
+    </div>
+</div>

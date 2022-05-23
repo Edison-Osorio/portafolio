@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "helvetica neue";
+  font-size: 19px;
+  background: url(./assets/img/bg-pattern.png);
+  background-color: rgb(160, 165, 165);
+  margin: auto;
+  padding: auto;
+}
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}

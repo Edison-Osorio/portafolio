@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="row mt-5">
+        <h2 id="about" class="text-center mb-5 mt-5 " >
+            Sobre Mí
+        </h2>
+        <div class="col-md-6 col-xl-6">
+            <h3 class="text-center">
+                Experiencia
+            </h3>
+
+            <div>
+                <p>
+                   - He participado en una aplicación básica para registrar peliculas
+                <p class="d-flex justify-content-end">09-2020 al 10-2020</p>
+            </div>
+            <div>
+                <p>
+                   - Participe en el desarrollo de un aplicativo para la gestión de la información del mismo
+                <p class="d-flex justify-content-end">01-2022 al 05-2022</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-6">
+            <h3 class="text-center">Lenguages de Programación</h3>
+            <div class="row  d-flex justify-content-center text-dark ">
+                <div *ngFor="let language of languages" class="col-md-3 mb-3">
+                    <div class="card-header">
+                        <img src="{{language.img}}" alt="">
+                        <div class="text-center">
+                            {{language.name}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <h3 class="text-center">
+                Mis pasatiempos
+            </h3>
+        <div id="hobbies" class="col-md-6 col-xl-6">
+            <ul class="list-group list-group-flush ms-5 justify-content-center">
+                <li> - Jugar video juegos </li>
+                <li> - Desarrollar aplicaciones</li>
+                <li> - Leer sobre tendencias de desarrollo </li>
+                <li> - Aprender sobre sistemas linux </li>
+                
+              </ul> 
+        </div>
+        <div id="hobbies" class="col-md-6 col-xl-6">
+            <ul class="list-group list-group-flush ms-5 justify-content-center">
+                <li> - Explorar la naturaleza </li>
+                <li> - Pasear en Moto </li>
+                <li> - Reparar Computadores </li>
+                <li> - Ayudar en el proceso de programación a las nuevas personas </li>
+                
+              </ul> 
+        </div>
+    </div>
+</div>
